@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '{license} © Academic Blog of Enze Wang {year}'
     license:
       enable: true
       allow_derivatives: false
