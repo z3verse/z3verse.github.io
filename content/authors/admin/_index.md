@@ -3,7 +3,7 @@
 title: Enze Wang
 
 # Name pronunciation (optional)
-name_pronunciation: Wang Enze
+# name_pronunciation: Wang Enze
 
 # Full name (for SEO)
 first_name: Enze
@@ -125,6 +125,8 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+
+Hello, I am Enze Wang, a 3th year Ph.D. student at IPASS Lab of NUDT, advised by Prof. BaoSheng Wang and Associate Prof. Wei Xie. I'm currently a visiting scholar at the Network and Information Security Lab (NISL) of Tsinghua University, advised by Prof. Haixin Duan and Assistant Prof. Jianjun Chen. My research interests include Web Security, IoT Security and AI Security. Currently, I focus on web-related security research. My research results have helped Z-BlogPHP, rConfig, and other well-known open-source project to fix vulnerabilities. As a member of leize, a Capture the Flag (CTF) team belonging to NUDT University, as well as Kn0ck, an international CTF team. My main skills are web security. I have won the XNUCA 2019 championship and other CTF awards.
 
 <!-- Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 {style="text-align: justify;"} -->
