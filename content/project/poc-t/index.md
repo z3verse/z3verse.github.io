@@ -8,7 +8,9 @@ tags:
 # Optional external URL for project (replaces project detail page).
 external_link: https://github.com/Xyntax/POC-T
 
+url_code: 'https://github.com/Xyntax/POC-T'
+
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: Photo by POC-T
   focal_point: Smart
 ---

@@ -112,6 +112,18 @@ sections:
   #     view: compact
   #     columns: '2'
 
+  - block: markdown
+    id: Misc
+    content:
+      title: Misc
+      subtitle: 🏅 Awards
+      text: Add any **markdown** forma
+      subtitle: Scholarship
+      text: Add any **markdown** forma
+      subtitle: 🐞 CVEs
+      text: Add any **markdown** forma
+
+
   # - block: markdown
   #   content:
   #     title: Gallery
@@ -165,8 +177,8 @@ sections:
           tag: '*'
         - name: BugHunter
           tag: BugHunter
-        - name: Other
-          tag: Demo
+        - name: Security
+          tag: Security
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
@@ -174,16 +186,16 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
 
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     columns: '2'
+  #     view: compact
   # - block: tag_cloud
   #   content:
   #     title: Popular Topics
@@ -220,16 +232,16 @@ sections:
         #   icon_pack: fab
         #   name: DM Me
         #   link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
+        # - icon: skype
+        #   icon_pack: fab
+        #   name: Skype Me
+        #   link: 'skype:echo123?call'
         - icon: video
           icon_pack: fas
           name: Zoom Me
           link: 'https://zoom.com'
         - icon: github
-          icon_pack: fas
+          icon_pack: fab
           name: Follow Me
           link: 'https://github.com/zer0yu'
       # Automatically link email and phone or display as text?
