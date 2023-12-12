@@ -112,22 +112,6 @@ sections:
   #     view: compact
   #     columns: '2'
 
-  - block: markdown
-    id: Misc
-    content:
-      title: Misc
-      subtitle: 🏅 Awards
-      text: |
-        ### CTF
-        hhhhhh
-        - test
-        - 123
-        ### Scholarship
-        hhhhhhh
-        - test
-        - 123
-
-
   # - block: markdown
   #   content:
   #     title: Gallery
@@ -190,6 +174,29 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
 
+  - block: markdown
+    id: Misc
+    content:
+      title: Misc
+      subtitle: 🏅 Awards
+      text: |
+        ### CTF
+        - First Prize,"Qiang Wang Cup" CTF,2021
+        - First Prize,National Student Information Security Contest,2020
+        - 7rd Place,Seebug Vulnerability Library White Hat Ranking List,2018
+        ### Scholarship
+        - National Cybersecurity Scholarship
+        ### Certification
+        - level-1,Business Security Certification,2019
+        - Level-1,National Information Security Level Certification,2018
+        - Mobile Development Engineer Certification，2016
+        ### CVEs
+        - CVE-2019-17373 [CVSS 9.8 CRITICAL in NVD]
+        - CVE-2021-44259 [CVSS 9.8 CRITICAL in NVD]
+        - CVE-2022-31827 [CVSS 9.1 CRITICAL in NVD]
+        - CVE-2023-39109 [CVSS 8.8 HIGH in NVD]
+        - and more than 30 other vulnerabilities
+
   # - block: collection
   #   id: talks
   #   content:
@@ -240,10 +247,10 @@ sections:
         #   icon_pack: fab
         #   name: Skype Me
         #   link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+        # - icon: video
+        #   icon_pack: fas
+        #   name: Zoom Me
+        #   link: 'https://zoom.com'
         - icon: github
           icon_pack: fab
           name: Follow Me
