@@ -117,11 +117,15 @@ sections:
     content:
       title: Misc
       subtitle: 🏅 Awards
-      text: Add any **markdown** forma
-      subtitle: Scholarship
-      text: Add any **markdown** forma
-      subtitle: 🐞 CVEs
-      text: Add any **markdown** forma
+      text: |
+        ### CTF
+        hhhhhh
+        - test
+        - 123
+        ### Scholarship
+        hhhhhhh
+        - test
+        - 123
 
 
   # - block: markdown
