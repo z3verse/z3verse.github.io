@@ -163,8 +163,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Bughunter
-          tag: Bughunter
+        - name: BugHunter
+          tag: BugHunter
         - name: Other
           tag: Demo
     design:
@@ -184,11 +184,11 @@ sections:
     design:
       columns: '2'
       view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
+  # - block: tag_cloud
+  #   content:
+  #     title: Popular Topics
+  #   design:
+  #     columns: '2'
   - block: contact
     id: contact
     content:
