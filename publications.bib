@@ -1,0 +1,89 @@
+@inproceedings{10.1145/3485447.3512213,
+author = {Xie, Wei and Chen, Jiongyi and Wang, Zhenhua and Feng, Chao and Wang, Enze and Gao, Yifei and Wang, Baosheng and Lu, Kai},
+title = {Game of Hide-and-Seek: Exposing Hidden Interfaces in Embedded Web Applications of IoT Devices},
+year = {2022},
+isbn = {9781450390965},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3485447.3512213},
+doi = {10.1145/3485447.3512213},
+abstract = {Recent years have seen increased attacks targeting embedded web applications of IoT devices. An important target of such attacks is the hidden interface of embedded web applications, which employs no protection but exposes security-critical actions and sensitive information to illegitimate users. With the severity and the pervasiveness of this issue, it is crucial to identify the vulnerable hidden interfaces, shed light on best practices and raise public awareness. In this paper, we present, a new approach that automatically exposes hidden web interfaces of IoT devices. Specifically, constructs probing requests through firmware analysis to test physical devices, and narrows down the scope of identification by filtering out irrelevant requests and interfaces through differential analysis. It pinpoints hidden interfaces by attaching various device-setting parameters in the probing requests and matching keywords of sensitive information. Evaluated on 17 IoT devices, successfully identified 44 vulnerabilities, including 43 previously unknown ones. also demonstrates surprising efficiency: on average, it delivered 151438 probing requests, taking only 47 minutes on each target device.},
+booktitle = {Proceedings of the ACM Web Conference 2022},
+pages = {524–532},
+numpages = {9},
+keywords = {Internet of Things, web security, Vulnerability detection, authentication},
+location = {Virtual Event, Lyon, France},
+series = {WWW '22}
+}
+
+
+@article{wang2023self,
+  title={Self-Deception: Reverse Penetrating the Semantic Firewall of Large Language Models},
+  author={Wang, Zhenhua and Xie, Wei and Chen, Kai and Wang, Baosheng and Gui, Zhiwen and Wang, Enze},
+  journal={arXiv preprint arXiv:2308.11521},
+  year={2023}
+}
+
+@Article{app12136429,
+AUTHOR = {Gao, Yifei and Zhou, Xu and Xie, Wei and Wang, Baosheng and Wang, Enze and Wang, Zhenhua},
+TITLE = {Optimizing IoT Web Fuzzing by Firmware Infomation Mining},
+JOURNAL = {Applied Sciences},
+VOLUME = {12},
+YEAR = {2022},
+NUMBER = {13},
+ARTICLE-NUMBER = {6429},
+URL = {https://www.mdpi.com/2076-3417/12/13/6429},
+ISSN = {2076-3417},
+ABSTRACT = {IoT web fuzzing is an effective way to detect security flaws in IoT devices. However, without enough information of the tested targets, IoT web fuzzing is often blind and inefficient. In this paper, we propose to use static analysis to assist IoT web fuzzing. Our insight is that plenty of useful information is hidden in firmwares, which can be mined by static analysis and used to guide the subsequent dynamic analysis&mdash;fuzzing. Hence, our approach contains two stages: pre-fuzzing stage and fuzzing stage. In the pre-fuzzing stage, we perform static analysis on the IoT firmwares to exploit helpful information, such as web page paths, interfaces, and shared keywords. These kinds of information are used to construct diverse seeds for covering more web paths and interfaces, and are also used to prioritize seeds according to their importance (related to shared keywords) in the fuzzing stage. Based on this approach, we implement a prototype IoT web fuzzing system&mdash;IoTParser. Experiments show that IoTParser increased the vulnerability discovery capability by 44% on average, while increasing the vulnerability discovery efficiency by 48.2% on average compared with state-of-the-art IoT web fuzzer. In addition, IoTParser has found 13 vulnerabilities, including 7 0-day.},
+DOI = {10.3390/app12136429}
+}
+
+@inproceedings {251556,
+author = {Tai Yue and Pengfei Wang and Yong Tang and Enze Wang and Bo Yu and Kai Lu and Xu Zhou},
+title = {{EcoFuzz}: Adaptive {Energy-Saving} Greybox Fuzzing as a Variant of the Adversarial {Multi-Armed} Bandit},
+booktitle = {29th USENIX Security Symposium (USENIX Security 20)},
+year = {2020},
+isbn = {978-1-939133-17-5},
+pages = {2307--2324},
+url = {https://www.usenix.org/conference/usenixsecurity20/presentation/yue},
+publisher = {USENIX Association},
+month = aug
+}
+
+@InProceedings{10.1007/978-3-030-90022-9_2,
+author="Wang, Zhenhua
+and Xie, Wei
+and Tao, Jing
+and Tang, Yong
+and Wang, Enze",
+editor="Garcia-Alfaro, Joaquin
+and Li, Shujun
+and Poovendran, Radha
+and Debar, Herv{\'e}
+and Yung, Moti",
+title="XHunter: Understanding XXE Vulnerability via Automatic Analysis",
+booktitle="Security and Privacy in Communication Networks",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="23--42",
+abstract="XXE vulnerability is a severe cybersecurity threat. OWASP listed the 10 most serious web application security risks, and XXE ranked fourth. This vulnerability can lead to sensitive information leakage, DoS attacks, and intranet asset discovery. Little attention has been given to this problem, and manual work is still needed to detect these vulnerabilities. Here, we design a penetration test framework, XHunter, to discover and exploit XXE vulnerabilities automatically. XHunter can find the call chain that triggers a vulnerability and determine the vulnerability's influence scope. Specifically, our work addresses many challenges in the analysis of modern web applications, such as object-oriented structures. In addition to detecting vulnerable sinks, we find the exploit path automatically. We give each vulnerability a risk rating based on the potential impact of the exploits. In this paper, we analyze 22 real-world web frameworks and find 8 unreported vulnerabilities, 2 of which have obtained CVE IDs.",
+isbn="978-3-030-90022-9"
+}
+
+
+@Article{app10114015,
+AUTHOR = {Wang, Enze and Wang, Baosheng and Xie, Wei and Wang, Zhenhua and Luo, Zhenhao and Yue, Tai},
+TITLE = {EWVHunter: Grey-Box Fuzzing with Knowledge Guide on Embedded Web Front-Ends},
+JOURNAL = {Applied Sciences},
+VOLUME = {10},
+YEAR = {2020},
+NUMBER = {11},
+ARTICLE-NUMBER = {4015},
+URL = {https://www.mdpi.com/2076-3417/10/11/4015},
+ISSN = {2076-3417},
+ABSTRACT = {At present, embedded devices have become a part of people&rsquo;s lives, so detecting security vulnerabilities contained in devices becomes imperative. There are three challenges in detecting embedded device vulnerabilities: (1) Most network protocols are stateful; (2) the communication between the web front-end and the device is encrypted or encoded; and (3) the conditional constraints of programs in the device reduce the depth and breadth of fuzz testing. To address these challenges, we propose a new type of gray-box fuzz testing framework in this paper, called EWVHunter, which is mainly used to find authentication bypass and command injection vulnerabilities in embedded devices. The key idea in this paper is based on the observation that most embedded devices are controlled through the web front-end. Such embedded devices often contain rich information in the communication protocol between the web front-end and device. Therefore, by filling data at the input source on the web front-end and reusing web front-end program logic, we can effectively solve the impact of the stateful network protocol and communication data encryption on fuzzing without relying on any knowledge about the communication protocol. Additionally, we use firmware information extraction to enhance EWVHunter so that it can detect vulnerabilities in deep layer codes and hidden interfaces. In our research, we implemented EWVHunter and evaluated 8 real-world embedded devices, and our approach identified 12 vulnerabilities (including 7 zero-days), which affect a total of 31,996 online devices.},
+DOI = {10.3390/app10114015}
+}
+
+
