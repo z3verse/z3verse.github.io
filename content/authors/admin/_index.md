@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Enze Wang | 王恩泽
+title: Enze Wang
 
 # Name pronunciation (optional)
 name_pronunciation: Wang Enze
